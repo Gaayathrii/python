@@ -1,0 +1,26 @@
+INPUT:
+list1=[12,-7,5,64,-14]
+print('The positive numbers are:')
+for i in list1:
+    if i>=0:
+        print(i,)
+
+OUTPUT:
+The positive numbers are:
+12
+5
+64
+
+
+INPUT:
+list2=[12,14,-95,3]
+print('The positive numbers are:')
+for j in list2:
+    if j>=0:
+        print(j)
+
+OUTPUT:
+The positive numbers are:
+12
+14
+3
